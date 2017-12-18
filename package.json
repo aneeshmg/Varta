@@ -1,0 +1,22 @@
+{
+  "name": "varta",
+  "version": "1.0.0",
+  "description": "A news app",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest test/**/*.spec.js"
+  },
+  "keywords": [
+    "news",
+    "npm",
+    "varta",
+    "cmd",
+    "commandline",
+    "google"
+  ],
+  "author": "Aneesh MG",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}
