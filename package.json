@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A news app",
   "main": "index.js",
+  "bin": {
+    "varta": "./index.js"
+  },
   "scripts": {
     "test": "jest test/**/*.spec.js"
   },
@@ -23,7 +26,11 @@
   "directories": {
     "test": "tests"
   },
-  "dependencies": {},
+  "dependencies": {
+    "inquirer": "^4.0.1",
+    "node-fetch": "^1.7.3",
+    "vorpal": "^1.12.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aneeshmg/Varta.git"
